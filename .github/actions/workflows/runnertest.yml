@@ -1,0 +1,7 @@
+name: Self hosted Runner test
+on: [push]
+  runs on: label-1
+    jobs:
+      name: job1 
+        run: |
+          echo "'the runner is working '"

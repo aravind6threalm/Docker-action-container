@@ -1,0 +1,9 @@
+name: Self hosted Runner test
+on: [push]
+
+jobs:
+  job1:
+    runs-on: label-1
+    steps:
+      - name: Run a one-line script
+        run: echo 'the runner is working'
